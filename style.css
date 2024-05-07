@@ -91,17 +91,16 @@ button {
 }
 
 .dorm {
-    display: inline-block;
-    padding: 10px;
-    max-width: 330px;
-    text-align: center;
-    border: 3px solid #3882F6;
     border-radius: 25px;
-    margin: 0 10px;
-    text-decoration: none;
+    border: 3px solid #3882F6;
     color: rgb(43, 43, 43);
+    display: inline-block;
     font-size: 22px;
-    margin-bottom: 100px;
+    margin: 0 10px 80px;
+    max-width: 330px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .dorm:hover {
@@ -111,4 +110,26 @@ button {
 .dorm img {
     height: 300px;
     justify-self: center;
+}
+
+/* QUOTE */
+
+.quote-sect {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 500px 90px 500px;
+    align-items: center;
+}
+
+.quoter
+{
+    margin-top: 30px;
+    font-size: 27px;
+    font-weight: bold;
+    align-self: flex-end;
 }
