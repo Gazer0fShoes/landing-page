@@ -53,7 +53,7 @@ body {
     font-weight: bolder;
 }
 
-.subtext {
+.hero .subtext {
     font-size: 25px;
     color: #E5E7EB;
     padding: 10px 0;
@@ -65,6 +65,7 @@ body {
 }
 
 button {
+    align-self: center;
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
@@ -128,8 +129,33 @@ button {
 
 .quoter
 {
-    margin-top: 30px;
+    align-self: flex-end;
     font-size: 27px;
     font-weight: bold;
-    align-self: flex-end;
+    margin-top: 30px;
+}
+
+/* CALL TO ACTION */
+
+.call {
+    background-color: #3882F6;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 50px 100px;
+}
+
+.call .main {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.call .subtext {
+    font-size: 23px;
+}
+
+.call button {
+    border: white solid 2px;
 }
